@@ -1,0 +1,26 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "endpoint that serves a hugue file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "generate-file": "node fileGenerator",
+    "eslint": "eslint .",
+    "test": "test"
+  },
+  "keywords": [
+    "Bigfile",
+    "server"
+  ],
+  "author": "piero",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-google": "^0.11.0"
+  },
+  "eslintConfig": {
+      "extends": "google"
+  }
+}
